@@ -1,0 +1,283 @@
+html{
+	margin: 0;
+	padding: 0;
+	width: 100%;
+	height: 100%;
+}
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	margin: 0;
+	padding: 0;
+	background-image: url(http://www.csszengarden.com/213/water.png);
+	background-repeat: repeat-x;
+	background-position: top;
+	background-color: #A0F0ED;
+	font-size: 0.9em;
+
+}
+
+.page-wrapper{
+	position: relative;
+	z-index: 4;
+	width: 700px;
+	margin-left: auto;
+	margin-top: 0;
+	margin-right: auto;
+	background-image: url(http://www.csszengarden.com/213/squid-blowfish.png);
+	background-repeat: no-repeat;
+	background-position: top right;
+}
+.intro{
+	margin-top: 0;
+	padding-top: 130px;
+}
+header{
+	position: absolute;
+	margin-top: -130px;
+}
+header h1{
+	background-image: url(http://www.csszengarden.com/213/title.png);
+	background-repeat: no-repeat;
+	background-position: top left;
+	height: 195px;
+	width: 290px;
+	text-indent: -999px;
+	overflow: hidden;
+	margin-top: 0;
+	white-space: nowrap;
+}
+header h2{
+	background-image: url(http://www.csszengarden.com/213/beauty.png);
+	background-repeat: no-repeat;
+	width: 33px;
+	height: 350px;
+	text-indent: -999px;
+	position: absolute;	
+	margin-top: 80px;
+	margin-left: 8px;
+}
+.summary{
+	background-image: url(http://www.csszengarden.com/213/top.png);
+	background-repeat: no-repeat;
+	width: 385px;
+	padding-bottom: 20px;
+}
+.summary p:first-child{
+	padding-top: 60px;
+}
+.summary p{
+	font-size: 0.7em;
+	font-style: italic;
+	margin-left: 60px;
+	margin-right: 60px;
+	text-align: center;
+}
+.summary p:last-child{
+	padding-top: 20px;
+	font-size: 0.8em;
+	text-transform: uppercase;
+}
+.preamble{
+	background-image: url(http://www.csszengarden.com/213/back.png);
+	width: 385px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.preamble h3{
+	background-image: url(http://www.csszengarden.com/213/enlightenment.png);
+	background-repeat: no-repeat;
+	text-indent: -999px;
+	margin-top: 0;
+	height: 45px;
+	width: 242px;
+	margin-left: 70px;
+}
+.preamble p{
+	font-size: .7em;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-style: italic;
+}
+.supporting{
+	background-image: url(http://www.csszengarden.com/213/end.png);
+	background-position: bottom;
+	background-repeat: no-repeat;
+	width: 384px;
+	padding-bottom: 600px;
+	margin-bottom: 50px;
+}
+.explanation{
+	background-image: url(http://www.csszengarden.com/213/back.png);
+	width: 384px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.explanation h3{
+	background-image: url(http://www.csszengarden.com/213/about.png);
+	background-repeat: no-repeat;
+	text-indent: -999px;
+	width: 242px;
+	height: 45px;
+	margin-left: 70px;
+}
+.explanation p{
+	font-size: 0.7em;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-style: italic;
+}
+.participation{
+	background-image: url(http://www.csszengarden.com/213/back.png);
+	width: 384px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;	
+}
+.participation h3{
+	background-image: url(http://www.csszengarden.com/213/participation.png);
+	background-repeat: no-repeat;
+	text-indent: -999px;
+	width: 242px;
+	height: 45px;
+	margin-left: 70px;
+}
+.participation p{
+	font-size: 0.7em;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-style: italic;
+}
+.benefits{
+	background-image: url(http://www.csszengarden.com/213/back.png);
+	width: 384px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.benefits h3{
+	background-image: url(http://www.csszengarden.com/213/benefits.png);
+	background-repeat: no-repeat;
+	text-indent: -999px;
+	width: 242px;
+	height: 45px;
+	margin-left: 70px;
+}
+.benefits p{
+	font-size: 0.7em;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-style: italic;
+}
+.requirements{
+	background-image: url(http://www.csszengarden.com/213/back.png);
+	width: 384px;
+	margin-top: 0;
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.requirements h3{
+	background-image: url(http://www.csszengarden.com/213/requirements.png);
+	background-repeat: no-repeat;
+	text-indent: -999px;
+	width: 242px;
+	height: 45px;
+	margin-left: 70px;
+}
+.requirements p{
+	font-size: 0.7em;
+	margin-top: 20px;
+	margin-left: 60px;
+	margin-right: 60px;
+	font-style: italic;
+}
+footer{
+	width: 250px;
+	background-color: white;
+	text-align: center;
+	margin-top: -23px;
+	margin-left: 350px;
+	padding: 0.5em;
+	font-size: 0.7em;
+}
+footer a{
+	text-decoration: none;
+	color: #333;
+}
+.sidebar{
+	background-image: url(http://www.csszengarden.com/213/menu-top.png);
+	background-repeat: no-repeat;
+	background-position: top;
+	position: absolute;
+	width: 225px;	
+	padding-top: 104px;
+	top: 300px;
+	margin-left: 375px;
+	font-size: 0.7em;
+}
+.sidebar .wrapper{
+	background-image: url(http://www.csszengarden.com/213/menu-end.png);
+	background-repeat: no-repeat;
+	padding-bottom: 350px;
+	background-position: bottom;
+}
+.design-selection{
+	background-image: url(http://www.csszengarden.com/213/menu-back.png);
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.design-selection h3{
+	background-image: url(http://www.csszengarden.com/213/select.png);
+	text-indent: -999px;
+	width: 200px;
+	height: 15px;
+}
+.sidebar ul{
+	margin-left: 35px;
+	list-style-image: url(http://www.csszengarden.com/213/bullet.png);
+	list-style-position: outside;
+	padding-left: 10px;
+	margin-top: 5px;
+}
+.sidebar li{
+	margin-bottom: 10px;
+	margin-right: 30px;
+}
+.design-archives{
+	background-image: url(http://www.csszengarden.com/213/menu-back.png);
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.zen-resources{
+	background-image: url(http://www.csszengarden.com/213/menu-back.png);
+	margin-bottom: 0;
+	padding-bottom: 20px;
+}
+.extra1{
+	position: absolute;
+	z-index: 2;
+	height: 800px;
+	background-image: url(http://www.csszengarden.com/213/critters.png);
+	width: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	top: 1200px;
+}
+.extra2{
+	background-image: url(http://www.csszengarden.com/213/bottom.png);
+	position: fixed;
+	background-position: center;
+	background-repeat: no-repeat;
+	bottom: 0;
+	width: 100%;
+	height: 200px;
+	z-index: 5;
+}
